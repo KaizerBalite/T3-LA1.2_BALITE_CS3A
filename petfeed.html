@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Social Feed</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- HEADER / NAVBAR -->
+    <header>
+        <img src="assets/logo.png" class="logo" alt="logo-photo" style="height: 40px;">
+        <h1>Pet Pals</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Feed</a></li>
+                <li><a href="#">Messages</a></li>
+                <li><a href="#">Profile</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- NEWSFEED SECTION -->
+    <main>
+        <section class="feed-container">
+            <!-- Post 1 -->
+            <div class="post">
+                <div class="user-info">
+                    <img src="assets/angular.jpg" alt="Profile Picture">
+                    <h3>Dog Man</h3>
+                </div>
+                <img src="assets/dogfriend.jpg" class="post-img" alt="Post Image">
+                <p class="caption">Rufus found a new buddy! #NewFriend</p>
+                <div class="actions">
+                    <button onclick="likePost(this)">👍 Like</button>
+                    <button>💬 Comment</button>
+                </div>
+            </div>
+
+            <!-- Post 2 -->
+            <div class="post">
+                <div class="user-info">
+                    <img src="assets/catmom.jpg" alt="Profile Picture">
+                    <h3>Cat Girl</h3>
+                </div>
+                <img src="assets/cat.jpg" class="post-img" alt="Post Image">
+                <p class="caption">Mae Meow</p>
+                <div class="actions">
+                    <button onclick="likePost(this)">👍 Like</button>
+                    <button>💬 Comment</button>
+                </div>
+            </div>
+
+            <!-- Post 3 -->
+            <div class="post">
+                <div class="user-info">
+                    <img src="assets/hammy.jpg" alt="Profile Picture">
+                    <h3>Hamstasty</h3>
+                </div>
+                <img src="assets/hamster.jpg" class="post-img" alt="Post Image">
+                <p class="caption">Stewart the Hamster</p>
+                <div class="actions">
+                    <button onclick="likePost(this)">👍 Like</button>
+                    <button>💬 Comment</button>
+                </div>
+            </div>
+
+            <!-- Post 4 -->
+            <div class="post">
+                <div class="user-info">
+                    <img src="assets/meow.jpg" alt="Profile Picture">
+                    <h3>Pet Pet</h3>
+                </div>
+                <img src="assets/pig.jpg" class="post-img" alt="Post Image">
+                <p class="caption">Cutesy lang. Very Demure</p>
+                <div class="actions">
+                    <button onclick="likePost(this)">👍 Like</button>
+                    <button>💬 Comment</button>
+                </div>
+            </div>
+
+            <!-- Post 5 -->
+            <div class="post">
+                <div class="user-info">
+                    <img src="assets/rufus.jpg" alt="Profile Picture">
+                    <h3>Lutan</h3>
+                </div>
+                <img src="assets/rufus.jpg" class="post-img" alt="Post Image">
+                <p class="caption">Lutan Getting Bigger</p>
+                <div class="actions">
+                    <button onclick="likePost(this)">👍 Like</button>
+                    <button>💬 Comment</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
